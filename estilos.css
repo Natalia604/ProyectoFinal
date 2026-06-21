@@ -1,0 +1,53 @@
+body{
+scroll-behavior:smooth;
+}
+
+.hero{
+padding-top:120px;
+padding-bottom:80px;
+background:linear-gradient(
+135deg,
+#001f5c,
+#5214e3
+);
+color:white;
+}
+
+.foto-perfil{
+width:250px;
+height:250px;
+border-radius:50%;
+border:5px solid white;
+}
+
+.card{
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.oscuro{
+background:#121212;
+color:white;
+}
+
+.oscuro .card{
+background:#1e1e1e;
+color:white;
+}
+
+.card-img-top{
+height: 220px;
+object-fit: cover;
+}
+.card{
+height:100%;
+transition:.3s;
+}
+
+.card-img-top{
+height:220px;
+object-fit:cover;
+}
